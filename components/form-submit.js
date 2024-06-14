@@ -1,6 +1,6 @@
 "use client";
 
-import { useFormStatus } from "../context/form-status";
+import { useFormStatus } from "react-dom";
 
 export default function FormSubmit() {
   const status = useFormStatus();
